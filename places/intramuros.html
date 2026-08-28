@@ -22,6 +22,44 @@
     </tr>
 </table>
 
+<h2>Suggest a Place</h2>
+
+<form>
+    <label for="place-name">Place Name</label>
+    <input type="text" id="place-name" name="place-name" required>
+
+    <fieldset>
+        <legend>Category</legend>
+
+        <input type="radio" id="historical" name="category" value="historical">
+        <label for="historical">Historical</label>
+
+        <input type="radio" id="cultural" name="category" value="cultural">
+        <label for="cultural">Cultural</label>
+
+        <input type="radio" id="architecture" name="category" value="architecture">
+        <label for="architecture">Architecture</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>What's good about it?</legend>
+
+        <input type="checkbox" id="historic-sites" name="good-points" value="historic-sites">
+        <label for="historic-sites">Historical sites</label>
+
+        <input type="checkbox" id="architecture-view" name="good-points" value="architecture-view">
+        <label for="architecture-view">Beautiful architecture</label>
+
+        <input type="checkbox" id="walking" name="good-points" value="walking">
+        <label for="walking">Good for walking</label>
+    </fieldset>
+
+    <label for="email">Contact Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Send suggestion</button>
+</form>
+
 <nav>
     <ul>
         <li><a href="../index.html">Home</a></li>
