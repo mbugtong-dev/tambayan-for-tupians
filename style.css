@@ -107,3 +107,90 @@ article a {
 article a:hover {
     background-color: var(--ink-color);
 }
+
+.place-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    border-left: 6px solid var(--brand-color);
+    margin-bottom: 25px;
+}
+
+.place-card h3 {
+    font-size: 24px;
+    color: var(--brand-color);
+    margin-top: 0;
+}
+
+.place-card p {
+    color: var(--ink-color);
+}
+
+.place-card img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.place-card a {
+    display: inline-block;
+    background-color: var(--brand-color);
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.place-card a:hover {
+    background-color: var(--ink-color);
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid var(--brand-color);
+    border-radius: 12px;
+}
+
+legend {
+    color: var(--brand-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,
+textarea,
+select {
+    padding: 10px;
+    border: 2px solid var(--muted-grey);
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 3px solid var(--brand-color);
+    outline-offset: 2px;
+}
+
+button {
+    background-color: var(--brand-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--ink-color);
+}
